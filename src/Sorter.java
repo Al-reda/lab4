@@ -17,7 +17,7 @@ public class Sorter {
     }
     
     /*Function to sort array using insertion sort*/
-    void sort(int arr[])
+    public static void insertionSort(int[] arr)
     {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
@@ -33,5 +33,8 @@ public class Sorter {
             }
             arr[j + 1] = key;
         }
+    }
+    public static void sort(int[] array){
+        insertionSort(array);
     }
 }
