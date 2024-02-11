@@ -16,7 +16,7 @@ public class Sorter {
         }
     }
     
-    /*Function to sort array using insertion sort*/
+
      /*Function to sort array using insertion sort*/
      public static void insertionSort(int[] arr)
      {
@@ -39,6 +39,9 @@ public class Sorter {
         selectionSort(array);
     }
     
+  
+    public static void Sort(int[] array){
+        insertionSort(array);
+    }
 
-    
 }
